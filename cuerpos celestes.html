@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cuerpos Celestes con Pestañas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('cuerpo celeste.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    .tabs {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .tab-button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 15px 20px;
+      font-size: 1.1em;
+      cursor: pointer;
+    }
+
+    .tab-button:hover,
+    .tab-button.active {
+      background-color:#02062a ;
+    }
+
+    .tab-content {
+      display: none;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    footer {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+	<header>
+  		<h1>Cuerpos Celestes</h1>
+	</header>
+
+<div class="tabs">
+  <button class="tab-button active" onclick="showTab('meteoros')">Meteoros</button>
+  <button class="tab-button" onclick="showTab('asteroides')">Asteroides</button>
+  <button class="tab-button" onclick="showTab('cometas')">Cometas</button>
+</div>
+
+<div id="meteoros" class="tab-content active">
+   	<h2>¿Qué es un meteoro?</h2>
+	<CENTER>
+		<IMG SRC="meteoritos-1-e1583550861314.jpg" WIDTH="600px" HEIGHT="300px">
+	</CENTER>
+  	<p><FONT SIZE="4">Para comprender que es un meteoro, primero hay que saber qué es un meteoroide.
+A veces un asteroide puede colisionar con otro, separando pequeñas piezas de uno de estos cuerpos celestes. Estas piezas sueltas del asteroide son llamadas meteoroides.</p></FONT>
+
+	<P><FONT SIZE="4">El término "meteoro" se refiere al fenómeno luminoso que ocurre cuando un fragmento de material espacial entra en la atmósfera terrestre y se quema debido al rozamiento con el aire. Este destello de luz es lo que comúnmente llamamos una "estrella fugaz". Los meteoros son generalmente fragmentos muy pequeños de cometas o asteroides que se desintegran completamente antes de alcanzar la superficie terrestre.</P></FONT>
+
+	<P><FONT SIZE="4">Pero los meteoroides también pueden provenir de los cometas, de acuerdo con la NASA.</P></FONT>
+
+	<P><FONT SIZE="4">Si un meteoroide se acerca suficientemente a la Tierra y entra a la atmósfera se evapora y se convierte en un haz de luz en el cielo. Éstos son nombrados “meteoros” y comúnmente los conocemos como “estrellas fugaces”.</P></FONT>
+
+	<P><FONT SIZE="4">Cuando los meteoroides no se evaporan por completo cuando entran a la atmósfera de la Tierra y llegan en forma de roca a nuestra superficie, se les denomina “meteoritos”.</P></FONT><BR>
+    	<h2>¿Qué es un meteorito?</h2>
+	<CENTER>
+		<IMG SRC="meteorite.jpg" WIDTH="600px" HEIGHT="300px">
+	</CENTER>
+	<P><FONT SIZE="4">Cuando un fragmento de meteoro no se desintegra completamente en la atmósfera y logra llegar a la superficie de la Tierra, se le llama meteorito. Estos fragmentos pueden variar en tamaño desde pequeños granos hasta grandes rocas. Los meteoritos proporcionan información valiosa sobre la composición del sistema solar primitivo, ya que muchos de ellos son restos de asteroides o cometas que datan de los inicios del sistema solar.</P></FONT><BR>
+
+	<h2>Meteoroides, meteoros y meteoritos</h2><BR>
+	<P><FONT SIZE="4">En el momento en que un meteoroide entra en contacto con la atmósfera se denomina meteoro, nos explica Francisco Espartero, director del Máster Universitario en Astrofísica y Técnicas de Observación en Astronomía de UNIR. “La mayoría se desintegran dejando un rastro de luz, y nosotros los vemos como estrellas fugaces. Y, cuando el meteoro es lo suficientemente grande como para lograr sobrepasar la atmósfera completa sin desintegrarse del todo, entonces cae a la Tierra, ahora sí, en forma de meteorito”. De hecho, y tal como recoge Briones en su libro, siendo puristas el nombre de meteorito solo se debería dar a aquellos objetos de los cuales se ha observado y documentado su caída, pero esto se estima que solo sucede en uno de cada diez casos.</P></FONT><BR>
+
+	<h2>Proceso de desintegración en la atmósfera</h2><BR>
+	<P><FONT SIZE="4">El proceso de desintegración de un meteoroide al entrar en la atmósfera es un fenómeno fascinante que involucra la interacción de varios factores. Al penetrar la atmósfera a velocidades que pueden superar los 20 km/s, el meteoroide se encuentra con una resistencia significativa. Esta resistencia genera calor debido a la fricción, lo que provoca la vaporización de sus materiales superficiales y la formación de un rastro luminoso conocido como meteoro.</P></FONT>
+
+	<P><FONT SIZE="4">La mayoría de los meteoroides se desintegran por completo antes de llegar a la superficie terrestre, pero algunos logran sobrevivir y convertirse en meteoritos. La capacidad de un meteoroide para resistir la desintegración depende de su tamaño, velocidad, composición y ángulo de entrada. Los meteoritos que alcanzan la Tierra suelen ser más pequeños de lo que eran originalmente debido a la pérdida de masa durante el paso por la atmósfera.</P></FONT>
+	<h2>Clasificación de los meteoros</h2>
+	<P><FONT SIZE="4">Los meteoros, se pueden clasificar en cuatro grupos:</P></FONT>
+		<UL>
+		<LI TYPE="CIRCLE">I Hidrometeoros o meteoros acuosos:
+		<UL>
+		<LI>a) Suspensión de partículas acuosas en la atmósfera</LI>
+		<LI>nube</LI>
+		<LI>neblina</LI>
+		<LI>niebla</LI>
+		<LI>niebla helada</LI>
+		<LI>b) precipitación es decir, caída de hidrometeoros que alcanzan la superficie terrestre:</LI>
+		<LI>lluvia</LI>
+		<LI>llovizna</LI>
+		<LI>lluvia engelante o sobreenfriada</LI>
+		<LI>chubasco</LI>
+		<LI>nieve</LI>
+		<LI>granizo</LI>
+		<LI>cellisca o granizo pequeño</LI>
+		<LI>cinarra</LI>
+		<LI>polvo de diamante</LI>
+		<LI>nieve granulada</LI>
+		<LI>hielo granulado</LI>
+		<LI>c) depósito de partículas:</LI>
+		<LI>helada</LI>
+		<LI>rocío y rocío de advección</LI>
+		<LI>rocío blanco</LI>
+		<LI>escarcha y escarcha de advección</LI>
+		<LI>cencellada blanca</LI>
+		<LI>cencellada dura</LI>
+		<LI>d) conjuntos de partículas levantadas por el viento</LI>
+		<LI>ventisca, ventisca alta y ventisca baja</LI>
+		<LI>rociones de las olas</LI>
+		<LI>e) otros:</LI>
+		<LI>tromba</LI>
+		<LI>birja</LI>
+		</UL></LI>
+		<LI TYPE="CIRCLE">II Litometeoros o meteoros de polvo
+		<UL>
+		<LI>a) suspensión de partículas en la atmósfera:</LI>
+		<LI>calima</LI>
+		<LI>calima de polvo</LI>
+		<LI>humo</LI>
+		<LI>b) conjuntos de partículas levantadas por el viento</LI>
+		<LI>ventisca de polvo o arena</LI>
+		<LI>tempestad de polvo o arena</LI>
+		<LI>remolino de polvo o arena (tolvanera).</LI>
+		</UL></LI>
+		<LI TYPE="CIRCLE">III Fotometeoros, meteoros ópticos o luminosos:
+		<UL>
+		<LI>arco iris</LI>
+		<LI>fenómenos de halo solar o lunar, incluyendo halo grande, halo pequeño, pilar de luz, arco circuncenital, parhelio y paraselene)</LI>
+		<LI>irisación de nubes</LI>
+		<LI>corona</LI>
+		<LI>glorias o coronas de Ulloa</LI>
+		<LI>anillos de Bishop</LI>
+		<LI>espejismo</LI>
+		<LI>trepidación óptica</LI>
+		<LI>centelleo</LI>
+		<LI>rayo verde</LI>
+		</UL></LI>
+		<LI TYPE="CIRCLE">IV Electrometeoros o meteoros eléctricos
+		<UL>
+		<LI>tormenta, relámpago, rayo</LI>
+		<LI>aurora</LI>
+		<LI>fuego de San Telmo.</LI>
+		<LI>Relámpago del Catatumbo</LI>
+		</UL><LI>
+		</UL>
+</div>
+
+<div id="asteroides" class="tab-content">
+  <h2>¿Qué es un asteroide?</h2>
+	<CENTER>
+		<IMG SRC="5913.600x450.jpg" WIDTH="600px" HEIGHT="300px">
+	</CENTER>
+  	<p><FONT SIZE="5">Un asteroide es un objeto rocoso que orbita alrededor del Sol y son considerados más pequeños que un planeta. “La mayoría de los asteroides en nuestro Sistema Solar se encuentran en el cinturón de asteroides, una región situada entre Marte y Júpiter, pero también pueden pasar por otros lugares alrededor del Sistema Solar. Por ejemplo, algunos asteroides orbitan alrededor del Sol en un camino que los lleva cerca de la Tierra”.</p></FONT>
+	<P><FONT SIZE="5"> A diferencia de los planetas, los asteroides son mucho más pequeños y tienen formas irregulares. Están compuestos principalmente de materiales rocosos y metálicos. Algunos de los asteroides más grandes, como Ceres y Vesta, son lo suficientemente grandes como para ser clasificados como planetas enanos.</P></FONT>
+	<P><FONT SIZE="5">El asteroide Vesta es el segundo objeto con más masa del cinturón de asteroides y el tercero en tamaño, con un diámetro principal de unos 530 kilómetros y una masa estimada del 9 % del cinturón de asteroides entero. La nave espacial Dawn de la NASA estudió Vesta desde julio de 2011 hasta septiembre de 2012. La imponente montaña en el polo sur, más del doble de la altura del Monte Everest, es visible en la parte inferior de la imagen. En la parte superior izquierda se puede observar el conjunto de tres cráteres conocidos como el "muñeco de nieve"</P></FONT><BR>
+	<CENTER>
+		<IMG SRC="640px-Asteroidsscale.jpg" WIDTH="600px" HEIGHT="300px">
+	</CENTER>
+	<P><FONT SIZE="5">A fecha de 29 de octubre de 2018, solo el sistema LINEAR había descubierto 147 132 asteroides. Entre todos las campañas, se han descubierto 19 266 asteroides cercanos a la Tierra,incluidos casi 900 de más de 1 kilómetro de diámetro</P></FONT><BR>
+		<UL TYPE="CIRCLE">
+		<LI>(1) Ceres (1801)</LI>
+		<LI>(2) Palas (1802)</LI>
+		<LI>(3) Juno (1804)</LI>
+		<LI>(4) Vesta (1807)</LI>
+		<LI>(5) Astraea (1845)</LI>
+		<LI>en 1846 se descubrió el planeta Neptuno</LI>
+		<LI>(6) Hebe (julio de 1847)</LI>
+		<LI>(7) Iris (agosto de 1847)</LI>
+		<LI>(8) Flora (octubre de 1847)</LI>
+		<LI>(9) Metis (25 de abril de 1848)</LI>
+		<LI>Higía (12 de abril del 1849) décimo asteroide descubierto</LI>
+
+		<LI>100 asteroides en 1868</LI>
+		<LI>1000 en 1921</LI>
+		<LI>10 000 en 1989</LI>
+		<LI>100 000 en 2005</LI>
+		<LI>1 000 000 en 2020</LI>
+		</UL>
+		<P> <FONT SIZE="5">El estudio de la luz reflejada por los asteroides proporciona indicios de sus composiciones superficiales. El análisis de los espectros de absorción de cientos de asteroides ha permitido clasificarlos en diferentes tipos atendiendo a diversos criterios, siendo los principales tipos “S”, “C”, “M”, “V” y “D”. Sin embargo, distintos materiales pueden tener similares espectros de absorción que, a su vez, pueden estar afectados por el estado de la superficie: si es porosa o compacta; si las rocas están más o menos fragmentadas; si está cubierta de polvo; o si ha sufrido una larga exposición a las radiaciones solar y cósmica.[76]​ Los principales modelos de clasificación espectral son Tholen y SMASS.</FONT> </P> <BR>
+		<TABLE BORDER="1" WIDTH="60%">
+			<THEAD>
+			<TR>
+				<TH>TIPOS </TH>
+				<TH>Clasificación de los asteroides según tipos espectrales</TH>
+			</THEAD>
+			</TR>
+			<TR>
+				<TD>Tipo espectral C</TD>
+				<TD>Los asteroides del tipo C tienen un albedo menor que 0.04 y constituyen más de la mitad de los asteroides conocidos. Son extremadamente oscuros y semejantes a meteoritos. Contienen rocas con un elevado porcentaje de carbono.</TD>
+			</TR>
+			<TR>
+				<TD>Tipo espectral M</TD>
+				<TD>Los asteroides del tipo M son brillantes (albedos entre 0.10 y 0.18), ricos en metales (principalmente níquel y hierro) y parecen proceder del núcleo de asteroides diferenciados.</TD>
+			</TR>
+			<TR>
+				<TD>Tipo espectral V</TD>
+				<TD>Estos asteroides, también llamados vestoides, son objetos astronómicos cuyo espectro es muy similar al de Vesta, el más grande con diferencia. La mayoría tiene valores de excentricidad e inclinación de la órbita parecidos a los de Vesta y un rango del semieje mayor entre 2.18 y 2.5 unidades astronómicas (hueco de Kirkwood 3:1). Esto permite suponer un origen común tras un gran impacto sobre Vesta. Son relativamente brillantes y en composición están equiparados a los asteroides del tipo S, pero contienen más piroxeno. Están relacionados con los meteoritos HED</TD>
+			</TR>
+			<TR>
+				<TD>Tipo espectral S</TD>
+				<TD>Los asteroides del tipo  representan alrededor del 17 % de los asteroides conocidos y tienen un albedo promedio de 0.14. Contienen metales en su composición y están formados fundamentalmente por silicio. Abundan en la parte interna del Cinturón.</TD>
+			</TR>
+			<TR>
+				<TD>Tipo espectral D</TD>
+				<TD>Los asteroides del tipo D tienen un albedo muy bajo (comprendido entre 0.02 y 0.05). Son muy rojos en longitudes de onda largas, debido quizás a la presencia de materiales con gran cantidad de carbono. Son muy raros en el cinturón principal y se les encuentra con mayor frecuencia en distancias superiores a 3.3 unidades astronómicas del Sol, donde su período orbital es del orden de la mitad del de Júpiter; es decir, están en las proximidades de la resonancia 2:1.</TD>
+			</TR>
+		</TABLE>
+
+</div>
+
+<div id="cometas" class="tab-content">
+  <h2>¿Qué es un cometa?</h2><BR>
+	<CENTER>
+		<IMG SRC="los-5-cometas-mas-grandes-de-la-historia-1.jpg" WIDTH="600px" HEIGHT="300px">
+	</CENTER>
+  	<p><FONT SIZE="4">A diferencia de los asteroides que están compuestos de roca, los cometas están formados por hielo y polvo, pero ambos orbitan alrededor del Sol.</p></FONT>
+
+	<p><FONT SIZE="4">Cuando la órbita de un cometa lo direcciona hacia el Sol, el hielo y polvo comienzan a evaporarse dando paso a una cola o coma. Este evento astronómico lo pudimos observar con el Cometa Verde y el Cometa Nishimura.</p></FONT>
+
+	<p><FONT SIZE="4">Los cometas son bolas de roca y hielo que forman colas al acercarse al sol durante el recorrido de sus perfectas órbitas elípticas. Cuando los cometas se calientan expulsan gas y polvo formando una estela tras ellos. El sol ilumina esta estela haciéndola brillar. Estas estelas brillantes pueden observarse de noche en el cielo.</p></FONT>
+
+	<p><FONT SIZE="4">Aunque probablemente hay billones de cometas circulando por los bordes exteriores del sistema solar, los cometas brillantes suelen aparecer en el cielo nocturno visible desde la Tierra una vez cada 10 años.</p></FONT>
+
+	<p><FONT SIZE="4">Las colisiones ocasionales y empujes gravitacionales llevan a asteroides y cometas a girar alrededor del sol en perfectas órbitas elípticas y algunas de ellas tan cerca de la Tierra que representan un riesgo de impacto. Los astrónomos observan continuamente el cielo en busca de cuerpos situados en una trayectoria que pudiera ocasionar una catástrofe.</p></FONT>
+
+	<p><FONT SIZE="4">Por suerte, la mayoría de los asteroides son demasiado pequeños como para producir un daño y al entrar en contacto con la atmósfera se desintegran y lo que vemos es una estrella fugaz.</p></FONT><BR>
+	<CENTER>
+		<IMG SRC="R.jpg" WIDTH="600px" HEIGHT="300px">
+	</CENTER>
+	<p><FONT SIZE="4">El cometa Halley, oficialmente denominado 1P/Halley, es un cometa grande y brillante que orbita alrededor del Sol cada 76 años en promedio; su período orbital es de 76 años. Órbita del cometa Halley, generada con el programa Celestia.</p></FONT><BR>
+	<P> <FONT SIZE="5"> <FONT FACE="Bookman old"> <FONT COLOR="black"> <P ALIGN="CENTER"> Propiedades de algunos cometas </FONT> </P>
+			<CENTER>
+		<TABLE BORDER="1" WIDTH="60%">
+			<THEAD>
+			<TR>
+				<TH>Nombre </TH>
+				<TH>Dimensiones(km) </TH>
+				<TH>Densidad(g/cm3) </TH>
+				<TH>Masa(kg)42 </TH>
+				<TH>Refs </TH>
+			</THEAD>
+			</TR>
+			<TR>
+				<TD>Cometa Halley  </TD>
+				<TD>15 × 8 × 8 </TD>
+				<TD>0.6 </TD>
+				<TD>3×10(14) </TD>
+				<TD>43 44 </TD>
+			</TR>
+			<TR>
+				<TD>Tempel 1 </TD>
+				<TD>7.6 × 4.9 </TD>
+				<TD>0.62 </TD>
+				<TD>7.9×10(13) </TD>
+				<TD>32 45 </TD>
+			</TR>
+			<TR>
+				<TD>19P/Borrelly </TD>
+				<TD>8 × 4 × 4 </TD>
+				<TD>0.3 </TD>
+				<TD>2.0×10(13) </TD>
+				<TD>32 </TD>
+			</TR>
+			<TR>
+				<TD>81P/Wild </TD>
+				<TD>5.5 × 4.0 × 3.3 </TD>
+				<TD>0.6 </TD> 
+				<TD>2.3×10(13) </TD>
+				<TD>32 46 </TD>
+			</TR>
+			<TR>
+				<TD>67P/Churyumov-Gerasimenko </TD>
+				<TD>4.1 × 3.3 × 1.8 </TD>
+				<TD>0.47 </TD>
+				<TD>1.0×10(13) </TD>
+				<TD>47 48 </TD>
+			</TR>
+		</TABLE>
+			</CENTER><BR>
+
+</div>
+	<header>
+  <nav>
+    <a href="file:///D:/El%20universo/index.HTML">Inicio</a>
+    <a href="file:///D:/El%20universo/fundamentos%20del%20universo.html">Fundamentos del universo</a>
+    <a href="file:///D:/El%20universo/misterios%20cosmicos.html">Misterios cosmicos</a>
+    <a href="file:///D:/El%20universo/fundamentos%20espaciales.html">Fenomenos espaciales</a>
+    <a href="file:///D:/El%20universo/teorias.html">Teorias</a>
+  </nav>
+	</header>
+
+<footer>
+  <p>&copy; 2025 Exploradores del Cosmos</p>
+</footer>
+
+<script>
+  function showTab(tabId) {
+    const contents = document.querySelectorAll('.tab-content');
+    const buttons = document.querySelectorAll('.tab-button');
+    contents.forEach(content => content.classList.remove('active'));
+    buttons.forEach(button => button.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+
+	</body>
+</html>
